@@ -1,0 +1,113 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.addDivContent{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:#000000;
+	top:0px;
+	z-index:999;
+}
+.addDiv{
+	position:absolute;
+	width:500px;
+	min-height:110px;
+	background-color:#6ecae9;
+	top:50%;
+	left:50%;
+	transform:translateY(-50%) translateX(-50%);
+	-webkit-transform:translateY(-50%) translateX(-50%);
+	-ms-transform:translateY(-50%) translateX(-50%);
+	-moz-transform:translateY(-50%) translateX(-50%);
+	-o-transform:translateY(-50%) translateX(-50%);
+	border-radius:4px;
+	box-shadow:0px 0px 30px #30a9d1;
+	box-sizing:border-box;
+	padding:20px;
+	text-align:right;
+}
+.content{
+	width:800px;
+	max-width:90%;
+	border:2px solid #30a9d1;
+	margin :0 auto;
+}
+.container{
+	width:100%;
+	display:flex;
+	min-height:500px;
+}
+.group{
+	flex-grow:2;
+	border-right:2px solid #30a9d1;
+	text-align:center;
+	color:#6ecae9;
+}
+.user{
+	flex-grow:2;
+	text-align:center;
+	color:#6ecae9;
+}
+.footer{
+	height:60px;
+	border-top:2px solid #30a9d1;
+	line-height:60px;
+	text-align:center;
+}
+.usGroupField{
+	border-bottom:2px solid #30a9d1;
+	font-size:25px;
+	line-height:30px;
+}
+.field{
+	padding:10px;
+	box-sizing:border-box;
+	border-bottom:2px solid #30a9d1;
+}
+.field span{
+	cursor:pointer;
+}
+.input{
+	width:100%;
+	border-radius:4px !important;
+	color: rgb(85, 85, 85);
+	background-color: rgb(255, 255, 255);
+	background-image: none;
+	box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset;
+	padding: 6px 12px;
+	box-sizing:border-box;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(204, 204, 204);
+	border-image: initial;
+	border-radius: 4px 0px 0px 4px;
+	margin:5px 0px !important;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.inputFooter{
+	width:70%;
+}
+.input:focus {
+	box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px;
+	border-color: rgb(102, 175, 233);
+	outline: 0px;
+}	
+.but{
+	margin:5px;
+}
+.titName{
+	color:#000000;
+	font-size:15px;
+}
+.titName:hover{
+	color:#6ecae9;
+}
+.titNameHov{
+	color:#6ecae9;
+	font-size:15px;
+}
+.user>.field>span {
+	color:#6ecae9 !important;
+}
